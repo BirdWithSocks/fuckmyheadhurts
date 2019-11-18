@@ -1,0 +1,11 @@
+body {
+    background: #161616;
+    color: #bdbdbd;
+}
+
+img {
+    display: none;
+    margin-left: auto;
+    margin-bottom: auto;
+    z-index: -1;
+}
