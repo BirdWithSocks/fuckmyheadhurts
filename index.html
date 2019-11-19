@@ -1,91 +1,330 @@
 <html>
     <head>
         <title>FUCK MY HEAD HURTS</title>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style1.css" />
         <link rel="icon" href="https://birdwithsocks.github.io/fuckmyheadhurts/favicon.png">
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-         <script src="libraries/typed.js" type="text/javascript"></script>
+         <script src="libraries/velocity.js" type="text/javascript"></script>
+         <script
+             src="https://code.jquery.com/jquery-2.1.3.js"
+             integrity="sha256-goy7ystDD5xbXSf+kwL4eV6zOPJCEBD1FBiCElIm+U8="
+             crossorigin="anonymous"></script>
     
     </head>
     <body>
-        <div id="navbar"><span> </span></div>
-        <div id="wrapper" class="wrapper"></div>
-         <span id="typed"></span>
+            <div id="cube" style="display: none;">
+  
+                    <div class="scene" >
+                      <div class="shape cuboid-1 c1">
+                        <div class="face ft"></div>
+                        <div class="face bk"></div>
+                        <div class="face rt"></div>
+                        <div class="face lt"></div>
+                        <div class="face bm"></div>
+                        <div class="face tp"></div>
+                      </div>
+                      <div class="shape cuboid-3 c2">
+                        <div class="face ft"></div>
+                        <div class="face bk"></div>
+                        <div class="face rt"></div>
+                        <div class="face lt"></div>
+                        <div class="face bm"></div>
+                        <div class="face tp"></div>
+                      </div>
+                       <div class="shape cuboid-4 c3">
+                        <div class="face ft"></div>
+                        <div class="face bk"></div>
+                        <div class="face rt"></div>
+                        <div class="face lt"></div>
+                        <div class="face bm"></div>
+                        <div class="face tp"></div>
+                      </div>
+                      <div class="shape cuboid-5 c4">
+                        <div class="face ft"></div>
+                        <div class="face bk"></div>
+                        <div class="face rt"></div>
+                        <div class="face lt"></div>
+                        <div class="face bm"></div>
+                        <div class="face tp"></div>
+                      </div>
+                      <div class="shape cuboid-2 c5">
+                        <div class="face ft"></div>
+                        <div class="face bk"></div>
+                        <div class="face rt"></div>
+                        <div class="face lt"></div>
+                        <div class="face bm"></div>
+                        <div class="face tp"></div>
+                      </div>
+                      <div class="shape cuboid-6 c6">
+                        <div class="face ft"></div>
+                        <div class="face bk"></div>
+                        <div class="face rt"></div>
+                        <div class="face lt"></div>
+                        <div class="face bm"></div>
+                        <div class="face tp"></div>
+                      </div>
+                      <div class="shape cuboid-7 c7">
+                        <div class="face ft"></div>
+                        <div class="face bk"></div>
+                        <div class="face rt"></div>
+                        <div class="face lt"></div>
+                        <div class="face bm"></div>
+                        <div class="face tp"></div>
+                      </div>
+                      <div class="shape cuboid-8 c8">
+                        <div class="face ft"></div>
+                        <div class="face bk"></div>
+                        <div class="face rt"></div>
+                        <div class="face lt"></div>
+                        <div class="face bm"></div>
+                        <div class="face tp"></div>
+                      </div>
+                      <div class="shape cuboid-9 c9">
+                        <div class="face ft"></div>
+                        <div class="face bk"></div>
+                        <div class="face rt"></div>
+                        <div class="face lt"></div>
+                        <div class="face bm"></div>
+                        <div class="face tp"></div>
+                      </div>
+                      <div class="shape cuboid-10 c10">
+                        <div class="face ft"></div>
+                        <div class="face bk"></div>
+                        <div class="face rt"></div>
+                        <div class="face lt"></div>
+                        <div class="face bm"></div>
+                        <div class="face tp"></div>
+                      </div>
+                      <div class="shape cuboid-11 c11">
+                        <div class="face ft"></div>
+                        <div class="face bk"></div>
+                        <div class="face rt"></div>
+                        <div class="face lt"></div>
+                        <div class="face bm"></div>
+                        <div class="face tp"></div>
+                      </div>
+                      <div class="shape cuboid-12 c12">
+                        <div class="face ft"></div>
+                        <div class="face bk"></div>
+                        <div class="face rt"></div>
+                        <div class="face lt"></div>
+                        <div class="face bm"></div>
+                        <div class="face tp"></div>
+                      </div>
+                      <div class="shape cuboid-13 c13">
+                        <div class="face ft"></div>
+                        <div class="face bk"></div>
+                        <div class="face rt"></div>
+                        <div class="face lt"></div>
+                        <div class="face bm"></div>
+                        <div class="face tp"></div>
+                      </div>
+                      <div class="shape cuboid-14 c14">
+                        <div class="face ft"></div>
+                        <div class="face bk"></div>
+                        <div class="face rt"></div>
+                        <div class="face lt"></div>
+                        <div class="face bm"></div>
+                        <div class="face tp"></div>
+                      </div>
+                      <div class="shape cuboid-15 c15">
+                        <div class="face ft"></div>
+                        <div class="face bk"></div>
+                        <div class="face rt"></div>
+                        <div class="face lt"></div>
+                        <div class="face bm"></div>
+                        <div class="face tp"></div>
+                      </div>
+                      <div class="shape cuboid-16 c16">
+                        <div class="face ft"></div>
+                        <div class="face bk"></div>
+                        <div class="face rt"></div>
+                        <div class="face lt"></div>
+                        <div class="face bm"></div>
+                        <div class="face tp"></div>
+                      </div>
+                      
+                    </div>
+                  </div>
+        <input id="fuck1" type="button" value="fuck" onclick="myFunction()" />
         <script>
-         var typed = new Typed('#typed',{
-                     strings: [
-                     "Hey you <br> Yes you <br> apparently it somehow became my job to teach you about some old guys ",
-                     "",
-                     ],
-                   backSpeed: 4,
-                   typeSpeed: 35,
-                   loop: false,
-                   shuffle: true,
-                   showCursor: false,
-                   
-                 });
-      
-        </script>
+   var blocks = [{
+   "X": 0,
+   "Y": -4.5,
+   "Z": -4.5,
+   "rX": 0,
+   "rY": 180,
+   "rZ": 0
+ }, {
+   "X": 0,
+   "Y": -4.5,
+   "Z": -1.5,
+   "rX": 0,
+   "rY": 540,
+   "rZ": 0
+ }, {
+   "X": 0,
+   "Y": -4.5,
+   "Z": 1.5,
+   "rX": 0,
+   "rY": 180,
+   "rZ": 0
+ }, {
+   "X": 0,
+   "Y": -4.5,
+   "Z": 4.5,
+   "rX": 0,
+   "rY": 0,
+   "rZ": 0
+ }, {
+   "X": 4.5,
+   "Y": -1.5,
+   "Z": 0,
+   "rX": 0,
+   "rY": 90,
+   "rZ": 0
+ }, {
+   "X": 1.5,
+   "Y": -1.5,
+   "Z": 0,
+   "rX": 0,
+   "rY": 90,
+   "rZ": -180
+ }, {
+   "X": -1.5,
+   "Y": -1.5,
+   "Z": 0,
+   "rX": 0,
+   "rY": 90,
+   "rZ": -180
+ }, {
+   "X": -4.5,
+   "Y": -1.5,
+   "Z": 0,
+   "rX": 810,
+   "rY": 0,
+   "rZ": -450
+ }, {
+   "X": 0,
+   "Y": 1.5,
+   "Z": 4.5,
+   "rX": 0,
+   "rY": 0,
+   "rZ": 0
+ }, {
+   "X": 0,
+   "Y": 1.5,
+   "Z": 1.5,
+   "rX": 0,
+   "rY": 0,
+   "rZ": 0
+ }, {
+   "X": 0,
+   "Y": 1.5,
+   "Z": -1.5,
+   "rX": 0,
+   "rY": 0,
+   "rZ": 0
+ }, {
+   "X": 0,
+   "Y": 1.5,
+   "Z": -4.5,
+   "rX": 0,
+   "rY": 0,
+   "rZ": 0
+ }, {
+   "X": -4.5,
+   "Y": 4.5,
+   "Z": 0,
+   "rX": 0,
+   "rY": 90,
+   "rZ": 0
+ }, {
+   "X": -1.5,
+   "Y": 4.5,
+   "Z": 0,
+   "rX": 0,
+   "rY": 90,
+   "rZ": 0
+ }, {
+   "X": 1.5,
+   "Y": 4.5,
+   "Z": 0,
+   "rX": 0,
+   "rY": 90,
+   "rZ": 0
+ }, {
+   "X": 4.5,
+   "Y": 4.5,
+   "Z": 0,
+   "rX": 0,
+   "rY": 90,
+   "rZ": 0
+ }];
 
+
+ var delay = 1, maxDelay = 10;
+
+ $('.shape').each(function(index) {
+   if (delay != maxDelay) {
+     delay += maxDelay / 4;
+   } else {
+     delay = 1;
+   }
+   asym = delay / maxDelay;
+   var startX = blocks[index].X;
+   var startY = blocks[index].Y;
+   var startZ = blocks[index].Z;
+   var startRX = blocks[index].rX;
+   var startRY = blocks[index].rY;
+   var startRZ = blocks[index].rZ;
+   var endX, endY, endZ, asym;
+   if (index < 4 || (index >= 8 && index <= 11)) {
+     startX = startX - asym;
+     endX = startX + 2 * asym;
+     endY = startY + 0;
+     endZ = startZ + 0;
+   } else {
+     startZ = startZ - asym;
+     endX = startX + 0;
+     endY = startY + 0;
+     endZ = startZ + 2 * asym;
+   }
+   $(this).velocity({
+     translateX: startX + 'em',
+     translateY: startY + 'em',
+     translateZ: startZ + 'em',
+     rotateX: startRX + 'deg',
+     rotateY: startRY + 'deg',
+     rotateZ: startRZ + 'deg'
+   }, {
+     duration: 0,
+     loop: false,
+     easing: 'ease-in-out'
+   }).velocity({
+     translateX: endX + 'em',
+     translateY: endY + 'em',
+     translateZ: endZ + 'em'
+   }, {
+     delay: 0,
+     duration: 600,
+     loop: true,
+     easing: 'ease-in-out'
+   });
+ });
+
+
+/* mouse movement */
+
+ var steps = 40;
+ $(document).mousemove(function(event) {
+   var percentWidth = event.pageX / $(document).width();
+   var percentHeight = event.pageY / $(document).height();
+   var moveX = ((percentHeight - 0.5) * steps) - 26;
+   var moveY = ((percentWidth - 0.5) * steps) + 36;
+   $('.scene').css("transform", "rotateX(" + moveX + "deg) rotateY(" + moveY + "deg)");
+ });
+ </script>
         
-        <script>
-         var typed = new Typed('#typed',{
-                     strings: [
-                     "Ok so the first old guy we have is <br> Um one sec ^3000 <br> This guy i think ^1000 <br> His name is Democritus <br> He was alive around 460 BC <br> Wow he is really old <br> He was an Ancient Greek philosopher <br> Democritus was the first person to come up with the idea of an atom <br> He came up with it by looking at sand. <br> He thought sand was first a pebble and when you break it down it could go on and on until it's unseeable <br> Next old guy",
-                     "Now we have the second old guy Aristotle ^3000 <br> He was also an ancient Greek philosopher like Democritus <br> He didn’t believe atoms were made up of tiny particles he believed that matter was made up of 5 elements which are: Earth, Air, Water, Fire, Aether",
-                     "Now we have John Dalton ^3000 <br> Developed the Atomic Theory a few parts of his theory are: <br>		all matter is composed of atoms, <br>		atoms cannot be created nor destroyed, <br>		all atoms of the same element are IDENTICAL, <br>		chemical reactions occur when atoms are rearranged, <br>		compounds are formed by the combinations of two or more different kinds of atoms <br>What parts are true today:<br>		All matter is composed of atoms<br>		Chemical reactions occur when atoms are rearranged compounds are formed by the combination of two or more different kinds of atoms"
-                     ],
-                     backSpeed: 4,
-                     typeSpeed: 35,
-                     loop: false,
-                     shuffle: false,
-                     showCursor: false,
-                     startDelay: 7000,
-                   });
-                 
-         </script>
-
-         <!-- Old guy 1 -->
-
-         <img id="myimage1" src="https://birdwithsocks.github.io/fuckmyheadhurts/oldguys/oldguy1.jpg" style="width:220px;height:257px;"  />
-         <script>
-           setTimeout(function(){
-           document.getElementById('myimage1').style.display = 'block';
-           },13000);
-           </script>
-         <script>
-           setTimeout(function(){
-           document.getElementById('myimage1').style.display = 'none';
-           },34000);
-           </script>
-
-         <!-- Old guy 2 -->
-
-         <img id="myimage2" src="https://birdwithsocks.github.io/fuckmyheadhurts/oldguys/oldguy2.jpg" style="width:220px;height:257px;"  />
-         <script>
-           setTimeout(function(){
-           document.getElementById('myimage2').style.display = 'block';
-           },38000);
-           </script>
-         <script>
-           setTimeout(function(){
-           document.getElementById('myimage2').style.display = 'none';
-           },54000);
-           </script> 
-           
-         <!-- Old guy 3 -->
-
-         <img id="myimage3" src="https://birdwithsocks.github.io/fuckmyheadhurts/oldguys/oldguy3.jpeg" style="width:220px;height:257px;"  />
-         <script>
-           setTimeout(function(){
-           document.getElementById('myimage3').style.display = 'block';
-           },58000);
-           </script>
-         <script>
-           setTimeout(function(){
-           document.getElementById('myimage3').style.display = 'none';
-           },104000);
-           </script>  
-           
     </body>
 </html>
