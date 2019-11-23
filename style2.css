@@ -1,4 +1,4 @@
-body {
+body { 
     background: #161616;
     color: #bdbdbd;
 }
@@ -17,3 +17,8 @@ p {
     right: 5px;
     bottom: 5px;
   }
+button {
+  display: block
+  font-family: monospace;
+  width:130px; 
+}
